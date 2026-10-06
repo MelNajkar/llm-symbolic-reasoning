@@ -1,0 +1,6 @@
+type,examples,exact_match_accuracy,normalized_match_accuracy,syntax_validity_before_repair,syntax_validity_after_repair,swipl_load_validity_rate
+fact,10,90.0,90.0,90.0,100.0,100.0
+multi_sentence,4,50.0,50.0,75.0,100.0,100.0
+relation,10,80.0,80.0,100.0,100.0,100.0
+rule_one_condition,8,87.5,87.5,87.5,100.0,100.0
+rule_two_conditions,8,62.5,62.5,100.0,100.0,100.0

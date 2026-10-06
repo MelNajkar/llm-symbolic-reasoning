@@ -1,0 +1,64 @@
+Evaluation Report
+=================
+
+Generation mode: api
+
+Overall Metrics
+===============
+Total examples: 10
+Exact match accuracy: 70.00%
+Normalized match accuracy: 80.00%
+Surface syntax validity before repair: 100.00%
+Surface syntax validity after repair: 100.00%
+Repair applied rate: 0.00%
+SWI-Prolog load validity rate: 100.00%
+
+Category-Level Metrics
+======================
+
+Category: fact
+Examples: 2
+Exact match accuracy: 100.00%
+Normalized match accuracy: 100.00%
+Surface syntax validity before repair: 100.00%
+Surface syntax validity after repair: 100.00%
+SWI-Prolog load validity rate: 100.00%
+
+Category: multi_sentence
+Examples: 2
+Exact match accuracy: 100.00%
+Normalized match accuracy: 100.00%
+Surface syntax validity before repair: 100.00%
+Surface syntax validity after repair: 100.00%
+SWI-Prolog load validity rate: 100.00%
+
+Category: relation
+Examples: 2
+Exact match accuracy: 0.00%
+Normalized match accuracy: 50.00%
+Surface syntax validity before repair: 100.00%
+Surface syntax validity after repair: 100.00%
+SWI-Prolog load validity rate: 100.00%
+
+Category: rule_one_condition
+Examples: 2
+Exact match accuracy: 50.00%
+Normalized match accuracy: 50.00%
+Surface syntax validity before repair: 100.00%
+Surface syntax validity after repair: 100.00%
+SWI-Prolog load validity rate: 100.00%
+
+Category: rule_two_conditions
+Examples: 2
+Exact match accuracy: 100.00%
+Normalized match accuracy: 100.00%
+Surface syntax validity before repair: 100.00%
+Surface syntax validity after repair: 100.00%
+SWI-Prolog load validity rate: 100.00%
+
+
+Error Type Counts
+=================
+- none: 7
+- predicate_error: 2
+- formatting_difference: 1

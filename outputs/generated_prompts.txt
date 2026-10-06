@@ -1,0 +1,1600 @@
+================================================================================
+Example ID: 1
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: John likes pizza.
+Prolog:
+
+================================================================================
+Example ID: 2
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Mary studies artificial intelligence.
+Prolog:
+
+================================================================================
+Example ID: 3
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Rome is a city.
+Prolog:
+
+================================================================================
+Example ID: 4
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Alice knows Bob.
+Prolog:
+
+================================================================================
+Example ID: 5
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: The dog chases the cat.
+Prolog:
+
+================================================================================
+Example ID: 6
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Sara reads books.
+Prolog:
+
+================================================================================
+Example ID: 7
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Tom plays football.
+Prolog:
+
+================================================================================
+Example ID: 8
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Paris is a capital.
+Prolog:
+
+================================================================================
+Example ID: 9
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: The bird flies.
+Prolog:
+
+================================================================================
+Example ID: 10
+Type: fact
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Anna teaches mathematics.
+Prolog:
+
+================================================================================
+Example ID: 11
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: John is the father of Mary.
+Prolog:
+
+================================================================================
+Example ID: 12
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Mary is the mother of Anna.
+Prolog:
+
+================================================================================
+Example ID: 13
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Bob is a friend of Alice.
+Prolog:
+
+================================================================================
+Example ID: 14
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: The cat is on the table.
+Prolog:
+
+================================================================================
+Example ID: 15
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: The book is inside the bag.
+Prolog:
+
+================================================================================
+Example ID: 16
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Luca lives in Bologna.
+Prolog:
+
+================================================================================
+Example ID: 17
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Marta works at the university.
+Prolog:
+
+================================================================================
+Example ID: 18
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: The train goes to Milan.
+Prolog:
+
+================================================================================
+Example ID: 19
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: The student uses a computer.
+Prolog:
+
+================================================================================
+Example ID: 20
+Type: relation
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: The teacher explains the lesson.
+Prolog:
+
+================================================================================
+Example ID: 21
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone studies then they pass.
+Prolog:
+
+================================================================================
+Example ID: 22
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone works then they earn money.
+Prolog:
+
+================================================================================
+Example ID: 23
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If something is a cat then it is an animal.
+Prolog:
+
+================================================================================
+Example ID: 24
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone exercises then they are healthy.
+Prolog:
+
+================================================================================
+Example ID: 25
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If something is a bird then it can fly.
+Prolog:
+
+================================================================================
+Example ID: 26
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone reads then they learn.
+Prolog:
+
+================================================================================
+Example ID: 27
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If something is a city then it is a place.
+Prolog:
+
+================================================================================
+Example ID: 28
+Type: rule_one_condition
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone teaches then they work.
+Prolog:
+
+================================================================================
+Example ID: 29
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone is hungry and is a cat then they meow.
+Prolog:
+
+================================================================================
+Example ID: 30
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone is a student and studies then they pass.
+Prolog:
+
+================================================================================
+Example ID: 31
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone is a person and works then they earn money.
+Prolog:
+
+================================================================================
+Example ID: 32
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If something is a bird and has wings then it can fly.
+Prolog:
+
+================================================================================
+Example ID: 33
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone is tired and sleeps then they recover.
+Prolog:
+
+================================================================================
+Example ID: 34
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If something is a vehicle and has wheels then it moves.
+Prolog:
+
+================================================================================
+Example ID: 35
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone is a teacher and explains lessons then they educate.
+Prolog:
+
+================================================================================
+Example ID: 36
+Type: rule_two_conditions
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: If someone is a student and attends class then they learn.
+Prolog:
+
+================================================================================
+Example ID: 37
+Type: multi_sentence
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog:
+
+================================================================================
+Example ID: 38
+Type: multi_sentence
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Tom is hungry. Tom is a cat. If someone is hungry and is a cat then they meow.
+Prolog:
+
+================================================================================
+Example ID: 39
+Type: multi_sentence
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Luca is a person. Luca works. If someone is a person and works then they earn money.
+Prolog:
+
+================================================================================
+Example ID: 40
+Type: multi_sentence
+--------------------------------------------------------------------------------
+You are a translator from controlled English to Prolog.
+
+Your task is to translate the English sentence into valid Prolog.
+
+Rules:
+- Output only Prolog.
+- Do not explain.
+- Use lowercase atoms.
+- Use underscores for multi-word concepts.
+- End every fact or rule with a period.
+- Use variables such as X, Y, Z for general rules.
+- Use the Prolog rule format: head :- body.
+- For conjunctions, separate predicates with commas.
+
+Examples:
+
+English: John likes pizza.
+Prolog: likes(john,pizza).
+
+English: Mary studies artificial intelligence.
+Prolog: studies(mary,artificial_intelligence).
+
+English: If someone studies then they pass.
+Prolog: pass(X) :- studies(X).
+
+English: If someone is a student and studies then they pass.
+Prolog: pass(X) :- student(X), studies(X).
+
+English: Mary is a student. Mary studies. If someone is a student and studies then they pass.
+Prolog: student(mary). studies(mary). pass(X) :- student(X), studies(X).
+
+Now translate the following sentence.
+
+English: Tweety is a bird. Tweety has wings. If something is a bird and has wings then it can fly.
+Prolog:
+
